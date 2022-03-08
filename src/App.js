@@ -21,6 +21,11 @@ const App = () => {
       <About />
       <ProductList />
       <Contact />
+      <div>
+       
+          <p>copy right &copy;2022, the <a href="http://simbas.com">simbas.com</p>
+      
+      </div>
     </div>
   );
 };
