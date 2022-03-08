@@ -40,15 +40,19 @@ const Contact = () => {
           <h1 className="c-title">Let's discuss your project</h1>
           <div className="c-info">
             <div className="c-info-item">
+              
               <img src={Phone} alt="" className="c-icon" />
               +256 784741068
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
+              <a href="mayengemichael@gmail.com" target="_blank" rel="noreferrer">
+              <img className="c-icon" src={Email} alt="" /></a>
               mayengemichael@gmail.com
+              
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
+              <a href="https://maps.apple.com/?address=Kitovu,%20Kajansi,%20Uganda&auid=15451945720897665064&ll=0.187475,32.523149&lsp=7618&q=My%20Location&_ext=EiYpq4IHvIIjxz8xw+1196VBQEA5FNxZBXtdyT9BgfM9fspEQEBQDA%3D%3D&t=r" target="_blank" rel="noreferrer">
+              <img className="c-icon" src={Address} alt="" /></a>
               Kampala Uganda
             </div>
           </div>

@@ -18,8 +18,7 @@ export default function Intro() {
                     </div>
                 </div>
                 <p className="i-disc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit quasi ratione. Id magni officiis voluptate nobis, possimus ducimus dolores beatae culpa distinctio. Molestias
-                     rerum doloribus nisi laborum iusto nesciunt.
+                I am a Tech enthusiast and Software Developer. I love photography.
                 </p>
             </div>
             <svg
