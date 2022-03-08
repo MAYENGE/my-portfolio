@@ -22,8 +22,15 @@ const App = () => {
       <About />
       <ProductList />
       <Contact />
+<<<<<<< HEAD
       <div className="right">
        <p>Copyright &copy;2022,<a  href="mayengemichael@gmail.com" target="_blank" rel="noreferrer"><span>Mchael Simba</span></a> </p>
+=======
+      <div>
+       
+          <p>copy right &copy;2022, the <a href="http://simbas.com">simbas.com</p>
+      
+>>>>>>> e6383744bd37060efbf687ac2331e87a98e92651
       </div>
     </div>
   );
