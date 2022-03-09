@@ -3,11 +3,16 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
+import Topbar from "./components/topbar/Topbar";
+import Copyright from "./components/copyright/Copyright";
+
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import './app.css'
 
+
 const App = () => {
+ 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -17,15 +22,13 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
+      <Topbar/>
       <Toggle />
       <Intro />
       <About />
       <ProductList />
       <Contact />
-
-      <div className="right">
-       <p>Copyright &copy;2022,<a  href="mayengemichael@gmail.com" target="_blank" rel="noreferrer"><span>Mchael Simba</span></a></p>
-      </div>
+      <Copyright/>
     </div>
   );
 };

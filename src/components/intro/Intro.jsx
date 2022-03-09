@@ -1,13 +1,16 @@
 import mike from "../../images/mike.png";
 import './intro.css';
 
-export default function Intro() {
+
+export default function Intro( ) {
   return (
     <div className='i' id="intro">
       
+      
         <div className="i-left">
+           
             <div className="i-left-wrapper">
-            
+                
                 <h2 className='i-intro'>Hello, my name is</h2>
                 <h1 className='i-name'>Michael Simba</h1>
                 <div className="i-title">
