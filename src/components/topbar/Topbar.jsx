@@ -5,9 +5,10 @@ export default function Topbar() {
   return (
     <div className="topbar">
       <div className="wrapper">
+      
         <div className="left">
           <a href="#intro" className="logo">
-          <h5>simba</h5>
+          <h8>simba</h8>
           </a>
           <div className="itemContainer">
            <a href="#about" className="logo">

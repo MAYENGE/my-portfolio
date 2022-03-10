@@ -9,6 +9,11 @@
   top: 0;
   z-index: 3;
   transition: all 1s ease;
+  @include mobile{
+    background: none;
+    border: none;
+  }
+
 
   .wrapper {
     padding: 10px 30px;
@@ -22,11 +27,21 @@
 
       .logo {
         font-size: 40px;
-        font-weight: 700;
+        // font-weight: 700;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        border-radius: 20px;
         
+        
+        
+      }
+      a{
+        &:hover {
+          
+          // font-size: 45px;
+          color: #59b256;
+        }
       }
       
 

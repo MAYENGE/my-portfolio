@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h4 className="c-title">Let's discuss your project</h4>
           <div className="c-info">
             <div className="c-info-item">
               

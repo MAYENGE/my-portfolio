@@ -1,22 +1,20 @@
+// import { Copyright } from "@material-ui/icons";
 import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import Copyright from "./components/copyright/Copyright";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
-import Topbar from "./components/topbar/Topbar";
-import Copyright from "./components/copyright/Copyright";
-
 import Toggle from "./components/toggle/Toggle";
+import Topbar from "./components/topbar/Topbar";
 import { ThemeContext } from "./context";
-import './app.scss'
 
 
 const App = () => {
- 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="app"
+    <div
       style={{
         backgroundColor: darkMode ? "#222" : "white",
         color: darkMode && "white",
@@ -29,6 +27,7 @@ const App = () => {
       <ProductList />
       <Contact />
       <Copyright/>
+      
     </div>
   );
 };

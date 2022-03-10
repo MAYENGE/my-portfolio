@@ -6,7 +6,7 @@ const ProductList = () => {
   return (
     <div className="pl" id="p">
       <div className="pl-texts">
-        <h1 className="pl-title">My projects</h1>
+        <h5 className="pl-title">My projects</h5>
         {/* <p className="pl-desc">
           Lama is a creative portfolio that your work has been waiting for.
           Beautiful homes, stunning portfolio styles & a whole lot more awaits
