@@ -128,5 +128,10 @@
   .i-title-wrapper{
     height: 50%;
   }
+  .i-img {
+    width: 76%;
+    height: 88%;
+    right: 30px;
+  }
   
 }

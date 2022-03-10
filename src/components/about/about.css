@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .a-left {
@@ -98,4 +99,32 @@
     .a-desc{
       font-size: small;
     }
+}
+@media screen and (max-width:768px) {
+  .a{
+    /* flex-direction: column; */
+    text-align: center;
+    
+    
+  }
+
+  .a-left {
+    width: 50%;
+    top: 0;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg, .a-award {
+    display: none;
+  }
+
+  .a-right{
+    padding: 20px;
+  }
+  .a-desc{
+    font-size: small;
+  }
 }
