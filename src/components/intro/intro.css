@@ -1,6 +1,7 @@
 .i {
   display: flex;
   height: 100vh;
+  
 }
 
 .i-left {
@@ -12,7 +13,7 @@
 
 .i-right {
   flex: 1;
-  position: relative;
+  position: relative
 }
 
 .i-left-wrapper {
@@ -75,10 +76,12 @@
 }
 
 .i-img {
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 93%;
   object-fit: cover;
   position: absolute;
+  right: 0;
+  top: 40px;
 }
 
 .i-bg {

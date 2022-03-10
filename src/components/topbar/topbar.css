@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px) {
+    .topbar {
+        width: 50%;
+        height: 40px;
+        background-color: white;
+        color: rgb(9, 9, 94);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        transition: all 1s ease;
+        border: none;
+        
+    }  
+    .itemContainer {
+        width: min(100% - 2rem, 70rem);
+        margin-inline: auto;
+    } 
+}
+    
