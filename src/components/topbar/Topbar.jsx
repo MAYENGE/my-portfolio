@@ -1,5 +1,6 @@
 import "./topbar.scss";
 import "./topbar.css"
+import me from "../../images/me.jpeg";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -9,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="left">
         
         <a href="#intro" className="logo">
-            Simba
+            <img src={me} alt="mike" className="me" /><b>Simba</b>
           </a>
           
           <a href="#" className="toggle-button">
@@ -19,12 +20,12 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </a>
           <div className="itemContainer">
            <a href="#about" className="logo">
-            <span>About me</span>
+            <span>About</span>
             </a>
           </div>
           <div className="itemContainer">
             <a href="#p" className="logo">
-            <span>My projects</span>
+            <span>Projects</span>
             </a>
           </div>
           

@@ -25,32 +25,53 @@
       flex: 1;
       display: flex;
       align-items: center;
-      
+      .me{
+        width: 30px;
+        border-radius: 100%;
+        margin-left: 45px;
+        
+        margin-left: 0;
+        align-items: center;
+        margin-top: 25px;
+        position: absolute;
+        
+      }
+      b{
+        margin-left: 46px;
+        font-size: 25px;
+      }
       
       
       
 
       .logo {
         font-size: 40px;
-        // font-weight: 700;
+        
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
         border-radius: 20px;        
       }
-      a{
-        &:hover {
-          
-          // font-size: 45px;
-          color: #59b256;
-        }
-      }
+      
       
 
       .itemContainer {
         display: flex;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 85px;
+        position: relative;
+        flex-wrap: nowrap;
+        
+        
+        span{
+          font-size: xx-small;
+          font-weight: 10px;
+          margin-right: 0;
+          &:hover{
+            color: green;
+          }
+          
+        }
       
 
         @include mobile{
@@ -115,7 +136,7 @@
           opacity: 0;
         }
         &:last-child {
-          // background-color: white;
+          
           transform: rotate(-45deg);
         }
       }
