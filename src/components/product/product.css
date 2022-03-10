@@ -12,7 +12,7 @@
   background-color: rgb(243, 242, 242);
   display: flex;
   align-items: center;
-  position: sticky;
+  
   z-index: 2;
 }
 

@@ -8,8 +8,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       
         <div className="left">
         
-          
-          simba
+        <a href="#intro" className="logo">
+            Simba
+          </a>
           
           <a href="#" className="toggle-button">
           <span className="bar"></span>
