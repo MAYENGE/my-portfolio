@@ -16,7 +16,7 @@ const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   
-    
+  
   
   return (
     <div 
@@ -27,13 +27,13 @@ const App = () => {
     >
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Toggle />
+      
       <Intro />
       <About />
       <ProductList />
       <Contact />
       <Copyright/>
-      
+      <Toggle />
     </div>
   );
 };

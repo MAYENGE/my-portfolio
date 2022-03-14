@@ -17,8 +17,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
+          
         </a>
           <div className="itemContainer">
+           <a href="#intro" className="logo">
+            <span>Home</span>
+            </a>
+            </div>
+            <div className="itemContainer">
            <a href="#about" className="logo">
             <span>About</span>
             </a>

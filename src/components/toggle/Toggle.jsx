@@ -11,7 +11,7 @@ const Toggle = () => {
     theme.dispatch({ type: "TOGGLE" });
   };
   return (
-    <div className="t">
+    <div className="t" onClick={handleClick}>
       <img src={sun} alt="" className="t-icon" />
       <img src={moon} alt="" className="t-icon" />
       <div

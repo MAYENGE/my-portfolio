@@ -22,7 +22,7 @@
     justify-content: space-between;
 
     .left {
-      flex: 1;
+      flex: 10;
       display: flex;
       align-items: center;
       .me{
@@ -92,12 +92,15 @@
 
     .right {
       flex: 1;
-      
+      // display: flex;
+      // align-items: center;
+      // justify-content: flex-end;
     
       
       .hamburger {
         width: 32px;
         height: 25px;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -113,6 +116,9 @@
         span {
           width: 100%;
           height: 3px;
+          top: 10px;
+          margin-right: 0;
+
           background-color: $mainColor;
           transform-origin: left;
           transition: all 2s ease;
