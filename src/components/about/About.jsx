@@ -17,15 +17,17 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-        I am a self starter who exhibits wonderful qualities
-         that shine well at the work place.
+        
         </p>
         <p className="a-desc">
-          I'm michael simba - a software developer, enthusiastic about 
-          learning new ways of having things done as well as passionate about
-           writting cleane and readable code that makes sense both to me and others 
-           and therefore resulting in good user experience. it always very compassinate for me to talk about code as well as 
-           working with other developers.
+        I liked computer games as a kid, and wanted to make my own. So I decided to take a 
+        few computer science classes. Once I began I realized writing user friendly web 
+        applications was what I like the most. I loved the challenge of it.
+         One of my shining qualities is keeping track of many details and
+          making few mistakes. As well as being proficient in
+           HTML, CSS,Javascript, React JS, Python, and C just to name a few.
+            I want to do this sort of work moving forward, especially
+             as long as I get to work on something lots of people will use!
            
         </p>
          <div className="a-award">

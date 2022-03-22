@@ -1,6 +1,6 @@
 import "./topbar.scss";
 import "./topbar.css"
-import me from "../../images/me.jpeg";
+import mi from "../../images/mi.jpeg";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -10,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="left">
         
         <a href="#intro" className="logo">
-            <img src={me} alt="mike" className="me" /><b>Simba</b>
+            <img src={mi} alt="mike" className="me" /><b>SIMBA.</b>
           </a>
           
           <a href="#" className="toggle-button">
