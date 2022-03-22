@@ -16,10 +16,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_xds8f2h",
-        "template_lizekk9",
+        "service_2oqiprq",
+        "template_3uciyt1",
         formRef.current,
-        "i94dqXpjAoZ10lxBR"
+        "WnozIfe3uc8b54yV4"
       )
       .then(
         (result) => {
@@ -45,9 +45,9 @@ const Contact = () => {
               +256 784741068
             </div>
             <div className="c-info-item">
-              <a href="mayengemichael@gmail.com" target="_blank" rel="noreferrer">
-              <img className="c-icon" src={Email} alt="" /></a>
-              mayengemichael@gmail.com
+              
+              <img className="c-icon" src={Email} alt="" />
+            simbamike80@gmail.com
               
             </div>
             <div className="c-info-item">

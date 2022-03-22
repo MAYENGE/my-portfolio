@@ -97,7 +97,7 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .i {
     flex-direction: column;
    /* margin-left: 5px; */
@@ -111,6 +111,13 @@
     justify-content: center;
     text-align: center;
     height: 100%;
+  }
+  .i-bg {
+    display: none;
+  }
+  .i-img {
+    border-radius: 50%;
+    background-color: #59b256;
   }
 
    .i-disc{
